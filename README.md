@@ -10,8 +10,9 @@ The pipeline is structured into three layers, each represented by a Synapse note
 -   **Silver Layer**: Data cleansing and transformation. This notebook uses **PySpark** to read the raw JSON files, flatten the nested data structure, and perform basic data type conversions. The result is a clean, structured table.
 -   **Gold Layer**: Business-ready data. This notebook applies business logic to the silver data, adding new columns like a significance classification and a country code using a User-Defined Function (UDF). The final table is ready for reporting and analytics.
 
-The entire workflow is designed to be orchestrated by **Data Factory** and visualized in a **Power BI** dashboard.
+The entire workflow is designed to be orchestrated by **Data Factory** 
 
+Earthquake API: https://earthquake.usgs.gov/fdsnws/ev...
 ## Technologies Used
 
 -   **Microsoft Fabric**: The unified platform for all data services.
