@@ -12,7 +12,7 @@ The pipeline is structured into three layers, each represented by a Synapse note
 
 The entire workflow is designed to be orchestrated by **Data Factory** 
 
-Earthquake API: https://earthquake.usgs.gov/fdsnws/ev...
+Earthquake API: [https://earthquake.usgs.gov/fdsnws/ev...](https://earthquake.usgs.gov/fdsnws/event/1/#parameters)
 ## Technologies Used
 
 -   **Microsoft Fabric**: The unified platform for all data services.
